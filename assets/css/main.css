@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			color:gray;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -197,6 +197,12 @@ input, select, textarea {
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
+
+		span.currentSection{
+			color:#ffffff;
+			border-bottom: solid 4px #ffffff;
+		}
+
 
 	h1 {
 		font-size: 2.25rem;

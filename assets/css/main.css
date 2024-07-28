@@ -199,6 +199,16 @@ input, select, textarea {
 			margin: auto auto 2rem auto;
 		}
 
+		h1.minor, h2.minor, h3.minor, h4.minor, h5.minor, h6.minor {
+			color:#ffffff;
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.5rem;
+			margin: auto auto 2rem auto;
+		}
+
 		span.currentSection{
 			color:#ffffff;
 			border-bottom: solid 4px #ffffff;

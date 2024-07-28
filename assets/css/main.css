@@ -317,6 +317,20 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* Cards & container*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Gap between cards */
+}
+
+.card {
+    background-color:grey;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px;
+    border: 1px solid #ccc;
+}
 /* Form */
 
 	form {
